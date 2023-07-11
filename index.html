@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Votação para presidente</title>
+  </head>
+  <body>
+    <header>
+      <div class="titleImages">
+        <h1>Votação para presidente do clube Console.estudos</h1>
+        <img src="imgs/pexels-photo-1813922.webp" alt="" />
+        <img src="imgs/pexels-photo-10154767.webp" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <section class="voteContainer">
+        <div>
+          <p>
+            Vote <b class="numbers">1</b> para <b>Firmino</b>,
+            <b class="numbers">2</b> para <b>Eugênia</b>,
+            <b class="numbers">0</b> para votar <b>em branco</b> e
+            <b class="numbers">9</b> para votar <b>nulo</b>.
+          </p>
+        </div>
+        <div class="btnsContainer">
+          <button class="btnFirmino">1</button>
+          <button class="btnEugenia">2</button>
+          <button class="btnWhite">0</button>
+          <button class="btnNull">9</button>
+        </div>
+      </section>
+
+      <section class="resultsContainer">
+        <div class="showResultsBox">
+          <h3>O resultado será exibido ao clicar no botão abaixo!</h3>
+          <button class="showResultsBtn">RESULTADOS</button>
+        </div>
+        <div class="resultsBox">
+          <p class="presidentResult"></p>
+          <p class="whiteVotes"></p>
+          <p class="nullVotes"></p>
+          <p class="allVotes"></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
